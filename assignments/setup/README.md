@@ -166,7 +166,7 @@ Run `bash more_setup.sh` from your VM terminal. This command will prompt you for
 - For the first prompt type `yes`
 - For the second prompt hit `Enter` to view the license agreement and hit `q` and another `Enter` to exit 
 - For the third prompt type `yes` to agree.
-- ** For the forth prompt type `/usr/bin/anaconda3` which is SUPER important!**
+- **For the forth prompt type `/usr/bin/anaconda3` which is SUPER important!**
 - For the last prompt type `yes` to init anaconda 
 
 After `more_setup.sh` script finishes run the following commands, 
