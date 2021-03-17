@@ -27,7 +27,7 @@ Because of this we are using many older versions of packages including python.
 **We will be using is 2.7.6. Thus when you program make sure you are using python2 syntax not python3.** 
 FYI mininet version we are using is 2.1.0 and jupyter-notebook is 5.7.10 (no jupyter-lab but just jupyter-notebook).
 
-## Additional Setup
+## Additional One-time Setup
 
 Make sure you are inside of your VM. If not you can simply run `vagrant ssh`.
 After shelling into your VM, uninstall existing versions of Jupyter and
@@ -44,6 +44,7 @@ Re-install Jupyter and matplotlib with the --user flag.
 $ pip install --user matplotlib
 $ pip install --user jupyter
 ```
+## Opening the Jupyter Notebook
 
 On the VM, run the command `sudo ~/.local/bin/jupyter-notebook &`. This will
 start a new Jupyter notebook server in the background. Even though it is
@@ -68,7 +69,7 @@ from top to bottom.
 **Remember to "Save and Checkpoint" (from the "File" menu) before you leave the
 notebook or close your tab.**  
 
-## Jupyter Notebook
+## What is Jupyter Notebook
 
 Jupyter Notebook (formerly called IPython Notebook) is a browser-based IDE with
 a cell-based editor.
