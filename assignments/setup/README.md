@@ -182,7 +182,7 @@ Let's call this `Screenshot 2`. This screenshot will look something like ![this 
 ### Step 8: Open the jupyter notebook and take the third (last) screenshot
 
 [Minilab0 README](assignments/minilab0/README.md) gives you the instruction on 
-how to open `Lab0_notebook.ipynb`. Take the final screenshot, `Screenshot 3` that shows 
+how to open `Lab0_notebook.ipynb`. Take the final screenshot `Screenshot 3` that shows 
 your jupyter-lab window in your host machine successfully rendering the notebook. 
 
 ### Step 9: Submit 3 screenshots to Canvas
