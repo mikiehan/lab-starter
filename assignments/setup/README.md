@@ -11,7 +11,7 @@ and network administrators affect Internet performance.  You will analyze data
 from UT's own network to detect security threats and learn how to
 prevent them.
 
-These labs are designed to be interesting and yet challenging therefore rewarding at the end.
+These labs are designed to be interesting and rewarding at the end.
 All of them are manageable in the time allotted. If you have questions, 
 want to suggest clarifications, please come to office hours, ask questions on Piazza, 
 or talk to an instructor after class.
@@ -95,7 +95,9 @@ download the starter files from GitHub.
 From the `assignments` directory you just entered, run the command  `vagrant
 up` to start the VM and provision it according to the Vagrantfile. You will
 likely have to wait several minutes. You may see warnings/errors in red, such
-as "default: stdin: is not a tty", but you shouldn't have worry about them.
+as "unable to re-open stdin: No such file or directory", but you shouldn't have 
+worry about them. Also you will receive your fair share of DEPRECATION of 
+Python 2.7 warning which you can igore as well.
 
 **Note 1**: The following commands will allow you to stop the VM at any point
 (such as when you are done working on an assignment for the day):
