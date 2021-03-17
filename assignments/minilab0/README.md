@@ -19,6 +19,8 @@ Partner A: Name (UTEID)
 
 Partner B: Name (UTEID) 
 
+(Note once the team is formed, you cannot leave the team.)
+
 ## Bare with OLD Versions
 
 We are using ancient version of ubuntu (14.04) because of its tcp_probe module which is used for keeping track of cwnd.
