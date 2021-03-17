@@ -31,6 +31,7 @@ Since this module is so crucial to this lab, we are stuck with this ancient vers
 Because of this, we are using many older versions of packages which includes python. 
 Do note that we will be using **Python 2.7.6**. Thus when you program make sure 
 you are using **python2** syntax (not python3). All python starter code provided are written in python2. 
+
 FYI, mininet version we are using is 2.1.0 and jupyter-notebook is 5.7.10 (no fancy jupyter-lab).
 
 ## Additional One-time Setup
