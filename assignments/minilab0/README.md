@@ -19,7 +19,7 @@ Partner A: Name (UTEID)
 
 Partner B: Name (UTEID) 
 
-(Note once the team is formed, you cannot leave the team.)
+(Note once the team is formed, you may not leave the team as code base is very small.)
 
 ## Bare with Old Versions
 
