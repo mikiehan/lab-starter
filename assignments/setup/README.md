@@ -129,7 +129,7 @@ your regular OS and the VM.
 
 Now take a screenshot of your VM terminal and let's call this `Screenshot 1`.
 This should show the result of running `vagrant ssh`. The screenshot will look 
-something like ![this figure](assignments/figs/screenshot1_example.png).
+something like ![this figure](../figs/screenshot1_example.png).
 
 Vagrant is especially useful because of this shared directory structure.  You
 don't need to copy files to and from the VM. Any file or directory in the
@@ -177,7 +177,7 @@ where the order doesn't really matter.
 `which python`
 
 Now take another screenshot of your VM terminal showing the results of commands above. 
-Let's call this `Screenshot 2`. This screenshot will look something like ![this figure](assignments/figs/screenshot2_example.png).
+Let's call this `Screenshot 2`. This screenshot will look something like ![this figure](../figs/screenshot2_example.png).
 
 ### Step 8: Open the jupyter notebook and take the third (last) screenshot
 
