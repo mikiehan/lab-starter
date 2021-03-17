@@ -6,7 +6,7 @@ you are welcome to discuss the assignments with any students without sharing cod
 
 ### Check Course Calendar/Canvas for Due Dates 
 By checkpoint deadline, 
-* Finish reading and completing TODO tasks till cell 29's `fetch_webserver()` in Part A (Right before `bufferbloat()`)
+* Finish reading and completing TODO tasks till cell 29's `fetch_webserver()` in Part A (Right before `bufferbloat()`) of the jupyter notebook.
 * Submit the URL of your team repository to Canvas and push your updated jupyter notebook to team repo.
 
 By final deadline
