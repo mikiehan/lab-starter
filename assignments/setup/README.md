@@ -178,12 +178,13 @@ where the order doesn't really matter.
 
 Now take another screenshot of your VM terminal showing the results of commands above. 
 Let's call this `Screenshot 2`. This screenshot will look something like below figure.
+![Alt text](figs/screenshot2_example.png)
 
-### Step 8: Follow instructions in Readme.md under minilab0
+### Step 8: Open the jupyter notebook and take the third (last) screenshot
 
-`minilab0/Readme.md` gives you the instruction how to open `Lab0_notebook.ipynb`.
-Take the final screenshot, `Screenshot 3` that shows your jupyter-lab window 
-successfully rendering the notebook. 
+[Minilab0 README](assignments/minilab0/README.md) gives you the instruction on 
+how to open `Lab0_notebook.ipynb`. Take the final screenshot, `Screenshot 3` that shows 
+your jupyter-lab window in your host machine successfully rendering the notebook. 
 
 ### Step 9: Submit 3 screenshots to Canvas
 
