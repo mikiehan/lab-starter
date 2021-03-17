@@ -71,7 +71,7 @@ from top to bottom.
 **Remember to "Save and Checkpoint" (from the "File" menu) before you leave the
 notebook or close your tab.**  
 
-## What is Jupyter Notebook
+## Useful options in Jupyter Notebook menu
 
 Jupyter Notebook (formerly called IPython Notebook) is a browser-based IDE with
 a cell-based editor.
@@ -80,10 +80,10 @@ Every cell in a notebook can contain either code or text ("Markdown"). Begin
 editing a cell by double-clicking it. You can execute the code in a cell (or
 typeset the text) by pressing `shift-enter` with the cell selected.  Global
 variables and functions are retained across cells. Save your work with the
-"Save and Checkpoint" option in the "File" menu. If your code hangs, you can
-interrupt it with the "Interrupt" option in the "Kernel" menu.  You can also
-clear all variables and reset the environment with the "Restart" option in the
-"Kernel" menu.
+`Save and Checkpoint` option in the `File` menu. If your code hangs, you can
+interrupt it with the `Interrupt` option in the `Kernel` menu.  You can also
+clear all variables and reset the environment with the `Restart` option in the
+`Kernel` menu.
 
 The "Help" menu contains many additional resources about Jupyter notebooks
 (including a user interface tour, useful keyboard shortcuts, and links to
