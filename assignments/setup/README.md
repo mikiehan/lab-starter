@@ -129,7 +129,7 @@ your regular OS and the VM.
 
 Now take a screenshot of your VM terminal and let's call this `Screenshot 1`.
 This should show the result of running `vagrant ssh`. The screenshot will look 
-something like below figure. 
+something like ![this figure](../figs/screenshot1_example.png).
 
 Vagrant is especially useful because of this shared directory structure.  You
 don't need to copy files to and from the VM. Any file or directory in the
@@ -162,12 +162,11 @@ doing this should only be necessary if you want to edit shell scripts.
 
 ### Step 7: Run more setup script and take the second screenshot
 
-Run `bash more_setup.sh` from your VM terminal. This command will prompt you for 5 input.
-- For the first prompt type `yes`
-- For the second prompt hit `Enter` to view the license agreement and hit `q` and another `Enter` to exit 
-- For the third prompt type `yes` to agree.
-- ** For the forth prompt type `/usr/bin/anaconda3` which is SUPER important!**
-- For the last prompt type `yes` to init anaconda 
+Run `bash more_setup.sh` from your VM terminal. This command will prompt you for the following input.
+- For the first prompt hit `Enter` to view the license agreement and hit `q` and another `Enter` to exit. 
+- For the second prompt type `yes` to agree.
+- **For the third prompt type `/usr/bin/anaconda3` as the location which is SUPER important!**
+- For the last prompt type `yes` to init anaconda. 
 
 After `more_setup.sh` script finishes run the following commands, 
 where the order doesn't really matter. 
@@ -177,13 +176,13 @@ where the order doesn't really matter.
 `which python`
 
 Now take another screenshot of your VM terminal showing the results of commands above. 
-Let's call this `Screenshot 2`. This screenshot will look something like below figure.
+Let's call this `Screenshot 2`. This screenshot will look something like ![this figure](../figs/screenshot2_example.png).
 
-### Step 8: Follow instructions in Readme.md under minilab0
+### Step 8: Open the jupyter notebook and take the third (last) screenshot
 
-`minilab0/Readme.md` gives you the instruction how to open `Lab0_notebook.ipynb`.
-Take the final screenshot, `Screenshot 3` that shows your jupyter-lab window 
-successfully rendering the notebook. 
+[Minilab0 README](assignments/minilab0/README.md) gives you the instruction on 
+how to open `Lab0_notebook.ipynb`. Take the final screenshot `Screenshot 3` that shows 
+your jupyter-lab window in your host machine successfully rendering the notebook. 
 
 ### Step 9: Submit 3 screenshots to Canvas
 
