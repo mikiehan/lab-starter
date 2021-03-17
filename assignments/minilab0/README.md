@@ -21,13 +21,16 @@ Partner B: Name (UTEID)
 
 (Note once the team is formed, you may not leave the team as code base is very small.)
 
-## Bare with Old Versions
+## Why Are We Using Old Versions?
 
-We are using ancient version of ubuntu (14.04) because of its tcp_probe module which is used for keeping track of cwnd.
-Later versions of ubuntu has removed tcp_probe module which is crucial to this lab so we are stuck with this ancient version.
-Because of this we are using many older versions of packages including python. 
-We will be using **Python 2.7.6**. Thus when you program make sure you are using **python2** syntax (not python3). 
-FYI mininet version we are using is 2.1.0 and jupyter-notebook is 5.7.10 (no jupyter-lab but just jupyter-notebook).
+As you may noticed, we are using ancient version of ubuntu (14.04) 
+because of its tcp_probe module that will be used to monitor cwnd.
+Later versions of ubuntu have removed tcp_probe module. 
+Since this module is so crucial to this lab, we are stuck with this ancient version.
+Because of this, we are using many older versions of packages which includes python. 
+Do note that we will be using **Python 2.7.6**. Thus when you program make sure 
+you are using **python2** syntax (not python3). All python starter code provided are written in python2. 
+FYI, mininet version we are using is 2.1.0 and jupyter-notebook is 5.7.10 (no fancy jupyter-lab).
 
 ## Additional One-time Setup
 
