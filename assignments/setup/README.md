@@ -162,7 +162,7 @@ doing this should only be necessary if you want to edit shell scripts.
 
 ### Step 7: Do additional setup and take the second (last) screenshot
 
-[Minilab0 README](assignments/minilab0/README.md) gives additional setup you need to do. 
+[Minilab0 README](../minilab0/README.md) gives additional setup you need to do. 
 As the last step,  you will open `Lab0_notebook.ipynb`. Run the python code cell in Part A 
 that starts with ```from mininet.topo import Topo```. You should see "setup finished" message
 being output without any errors.
