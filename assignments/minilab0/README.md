@@ -5,12 +5,12 @@ You are not allowed to copy or look at code from other teams. However,
 you are welcome to discuss the assignments with any students without sharing code.
 
 ### Check Course Calendar/Canvas for Due Dates 
-By checkpoint deadline, 
-* Complete TODO 1 through TODO 5.
+**By checkpoint deadline**
+* Complete `TODO 1` through `TODO 5`.
 * Submit the URL of your team repository to Canvas and push your updated jupyter notebook to your team repo.
 
 By final deadline
-* Complete the rest of the TODOs.
+* Complete the rest of the `TODOs`.
 * Push your updated files to team repository. 
 
 ## Team Info
