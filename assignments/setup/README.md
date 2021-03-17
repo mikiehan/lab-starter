@@ -162,11 +162,10 @@ doing this should only be necessary if you want to edit shell scripts.
 
 ### Step 7: Run more setup script and take the second screenshot
 
-Run `bash more_setup.sh` from your VM terminal. This command will prompt you for 5 input.
-- For the first prompt type `yes` to get started.
-- For the second prompt hit `Enter` to view the license agreement and hit `q` and another `Enter` to exit. 
-- For the third prompt type `yes` to agree.
-- **For the fourth prompt type `/usr/bin/anaconda3` as the location which is SUPER important!**
+Run `bash more_setup.sh` from your VM terminal. This command will prompt you for the following input.
+- For the first prompt hit `Enter` to view the license agreement and hit `q` and another `Enter` to exit. 
+- For the second prompt type `yes` to agree.
+- **For the third prompt type `/usr/bin/anaconda3` as the location which is SUPER important!**
 - For the last prompt type `yes` to init anaconda. 
 
 After `more_setup.sh` script finishes run the following commands, 
