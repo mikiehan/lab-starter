@@ -11,7 +11,7 @@ and network administrators affect Internet performance.  You will analyze data
 from UT's own network to detect security threats and learn how to
 prevent them.
 
-These labs are designed to be interesting and yet challenging therefore rewarding at the end.
+These labs are designed to be interesting and rewarding at the end.
 All of them are manageable in the time allotted. If you have questions, 
 want to suggest clarifications, please come to office hours, ask questions on Piazza, 
 or talk to an instructor after class.
@@ -95,7 +95,9 @@ download the starter files from GitHub.
 From the `assignments` directory you just entered, run the command  `vagrant
 up` to start the VM and provision it according to the Vagrantfile. You will
 likely have to wait several minutes. You may see warnings/errors in red, such
-as "default: stdin: is not a tty", but you shouldn't have worry about them.
+as "unable to re-open stdin: No such file or directory", but you shouldn't have 
+worry about them. Also you will receive your fair share of DEPRECATION of 
+Python 2.7 warning which you can igore as well.
 
 **Note 1**: The following commands will allow you to stop the VM at any point
 (such as when you are done working on an assignment for the day):
@@ -128,8 +130,8 @@ then run `cd /vagrant` to get to the course directory that's shared between
 your regular OS and the VM.
 
 Now take a screenshot of your VM terminal and let's call this `Screenshot 1`.
-This should show the result of running `vagrant ssh`. The screenshot will look 
-something like ![this figure](../figs/screenshot1_example.png).
+This should show the result of running `vagrant ssh` from your host terminal.
+The screenshot will look something like [this](../figs/screenshot1_example.png).
 
 Vagrant is especially useful because of this shared directory structure.  You
 don't need to copy files to and from the VM. Any file or directory in the
@@ -160,34 +162,20 @@ from the VM is some error message involving `^M` (carriage return). A good hint
 you need to do this when editing on Windows is the lack of new lines. Remember,
 doing this should only be necessary if you want to edit shell scripts.
 
-### Step 7: Run more setup script and take the second screenshot
+### Step 7: Do additional setup and take the second (last) screenshot
 
-Run `bash more_setup.sh` from your VM terminal. This command will prompt you for the following input.
-- For the first prompt hit `Enter` to view the license agreement and hit `q` and another `Enter` to exit. 
-- For the second prompt type `yes` to agree.
-- **For the third prompt type `/usr/bin/anaconda3` as the location which is SUPER important!**
-- For the last prompt type `yes` to init anaconda. 
+[Minilab0 README](../minilab0/README.md) gives additional setup you need to do. 
+As the last step,  you will open `Lab0_notebook.ipynb`. Run the python code cell in Part A 
+that starts with ```from mininet.topo import Topo```. You should see "setup finished" message
+being output without any errors.
 
-After `more_setup.sh` script finishes run the following commands, 
-where the order doesn't really matter. 
-`ls -l /usr/bin/python`
-`which jupyter-lab`
-`which pip`
-`which python`
+Take the final screenshot `Screenshot 2` that shows the cell and the output. 
+After taking the screenshot remove the line that prints "setup finished" from the cell.
 
-Now take another screenshot of your VM terminal showing the results of commands above. 
-Let's call this `Screenshot 2`. This screenshot will look something like ![this figure](../figs/screenshot2_example.png).
+### Step 8: Submit 2 screenshots to Canvas
 
-### Step 8: Open the jupyter notebook and take the third (last) screenshot
-
-[Minilab0 README](assignments/minilab0/README.md) gives you the instruction on 
-how to open `Lab0_notebook.ipynb`. Take the final screenshot `Screenshot 3` that shows 
-your jupyter-lab window in your host machine successfully rendering the notebook. 
-
-### Step 9: Submit 3 screenshots to Canvas
-
-You must submit ALL 3 screenshots to Canvas, each of which taken in Step 6, 
-Step 7, and Step 8 respectively. 
+You must submit 2 screenshots to Canvas, each of which taken in Step 6 
+and Step 7 respectively. 
  
 ### Step 10: Now you are ready to get started on assignments/minilab0
 
