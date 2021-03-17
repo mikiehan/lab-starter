@@ -21,7 +21,7 @@ Partner B: Name (UTEID)
 
 (Note once the team is formed, you cannot leave the team.)
 
-## Bare with OLD Versions
+## Bare with Old Versions
 
 We are using ancient version of ubuntu (14.04) because of its tcp_probe module which is used for keeping track of cwnd.
 Later versions of ubuntu has removed tcp_probe module which is crucial to this lab so we are stuck with this ancient version.
@@ -71,7 +71,7 @@ from top to bottom.
 **Remember to "Save and Checkpoint" (from the "File" menu) before you leave the
 notebook or close your tab.**  
 
-## Useful options in Jupyter Notebook menu
+## Useful Options in Jupyter Notebook Menu
 
 Jupyter Notebook (formerly called IPython Notebook) is a browser-based IDE with
 a cell-based editor.
