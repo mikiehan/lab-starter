@@ -6,6 +6,9 @@ you are welcome to discuss the assignments with any students without sharing cod
 
 ### Check Course Calendar/Canvas for Due Dates 
 By **setup** deadline
+* Submit 2 required screenshots specified in [setup README](../setup/README.md).
+* Fill out the team info here and push this updated README to your team repo. 
+
 By **checkpoint** deadline
 * Complete `TODO 1` through `TODO 5` in `Lab0_Notebook.ipynb`.
 * Submit the URL of your team repository to Canvas and push your updated notebook to your team repo.
