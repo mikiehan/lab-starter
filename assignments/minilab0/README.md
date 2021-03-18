@@ -10,7 +10,7 @@ By **setup** deadline
 * Fill out the team info here and push this updated README to your team repo. 
 
 By **checkpoint** deadline
-* Complete `TODO 1` through `TODO 5` in `Lab0_Notebook.ipynb`.
+* Complete `TODO 1` through `TODO 4` in `Lab0_Notebook.ipynb`.
 * Submit the URL of your team repository to Canvas and push your updated notebook to your team repo.
 
 By **final** deadline
