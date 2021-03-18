@@ -4,10 +4,18 @@ For this lab, you may work solo or with one other partner of your choice.
 You are not allowed to copy or look at code from other teams. However, 
 you are welcome to discuss the assignments with any students without sharing code.
 
+## Team Info
+
+Partner A: Name (UTEID)
+
+Partner B: Name (UTEID) 
+
+(Note once the team is formed, you may not leave the team as code base is very small.)
+
 ### Check Course Calendar/Canvas for Due Dates 
 By **setup** deadline
 * Submit 2 required screenshots specified in [setup README](../setup/README.md).
-* Fill out the team info here and push this updated README to your team repo. 
+* Fill out the team info above and push this updated README to your team repo. 
 
 By **checkpoint** deadline
 * Complete `TODO 1` through `TODO 4` in `Lab0_Notebook.ipynb`.
@@ -16,14 +24,6 @@ By **checkpoint** deadline
 By **final** deadline
 * Complete the rest of the `TODOs` in `Lab0_Notebook.ipynb`.
 * Push the updated notebook to team repository. 
-
-## Team Info
-
-Partner A: Name (UTEID)
-
-Partner B: Name (UTEID) 
-
-(Note once the team is formed, you may not leave the team as code base is very small.)
 
 ## Why Are We Using Old Versions?
 
