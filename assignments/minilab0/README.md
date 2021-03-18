@@ -27,9 +27,9 @@ By **final** deadline
 
 ## Why Are We Using Old Versions?
 
-As you may noticed, we are using ancient version of ubuntu (14.04) 
+As you may noticed, we are using an old version of ubuntu (14.04) 
 because of its tcp_probe module that will be used to monitor cwnd.
-Later versions of ubuntu have removed tcp_probe module. 
+Later versions of ubuntu have removed tcp_probe module unfortunately. 
 Since this module is so crucial to this lab, we are stuck with this ancient version.
 Because of this, we are using many older versions of packages which includes python. 
 Do note that we will be using **Python 2.7.6**. Thus when you program make sure 
