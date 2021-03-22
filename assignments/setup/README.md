@@ -182,5 +182,5 @@ After taking the screenshot remove the line that prints "setup finished" from th
 You must submit 2 screenshots to Canvas, each of which taken in Step 6 
 and Step 7 respectively. 
  
-### Step 10: Now you are ready to get started on assignments/minilab0
+### Now you are ready to get started on assignments/minilab0
 
