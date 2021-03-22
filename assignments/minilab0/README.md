@@ -15,7 +15,7 @@ Partner B: Name (UTEID)
 ### Check Course Calendar/Canvas for Due Dates 
 By **setup** deadline
 * Submit 2 required screenshots specified in [setup README](../setup/README.md) to Canvas.
-* Fill out the team info above and push this updated README to your team repo. 
+* Fill out the team info above and push this updated README to your team repository. 
 
 By **checkpoint** deadline
 * Complete `TODO 0` through `TODO 5` in `Lab0_Notebook.ipynb`.
@@ -23,7 +23,7 @@ By **checkpoint** deadline
 
 By **final** deadline
 * Complete the rest of the `TODOs` in `Lab0_Notebook.ipynb`.
-* Push the updated notebook to team repository. 
+* Push the updated notebook to your team repository. 
 
 ## Why Are We Using Old Versions?
 
