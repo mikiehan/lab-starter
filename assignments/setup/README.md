@@ -96,6 +96,7 @@ From the `assignments` directory you just entered, run below command to
 download the pre-built Virtual Box image for this lab. 
 
 `wget https://cs.utexas.edu/\~mhan/courses/cs356/sp21/labs/lab0/cs356-sp21-minilab.box`
+
 If you do not have wget, you can also manually download using any web browser
 using the same URL given above without "wget". Do make sure to place this box file 
 `assignments` directory.
