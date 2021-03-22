@@ -183,4 +183,4 @@ You must submit 2 screenshots to Canvas, each of which taken in Step 6
 and Step 7 respectively. 
  
 ### Now you are ready to get started on assignments/minilab0
-
+Congrats! The setup is done. 
