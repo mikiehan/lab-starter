@@ -18,8 +18,8 @@ By **setup** deadline
 * Fill out the team info above and push this updated README to your team repo. 
 
 By **checkpoint** deadline
-* Complete `TODO 1` through `TODO 4` in `Lab0_Notebook.ipynb`.
-* Submit the URL of your team repository to Canvas and push your updated notebook to your team repo.
+* Complete `TODO 0` through `TODO 5` in `Lab0_Notebook.ipynb`.
+* Also make sure to submit the URL of your team repository.
 
 By **final** deadline
 * Complete the rest of the `TODOs` in `Lab0_Notebook.ipynb`.
@@ -36,24 +36,7 @@ you are using **python2** syntax (not python3). All python starter code provided
 
 FYI, mininet version we are using is 2.1.0 and jupyter-notebook is 5.7.10 (no fancy jupyter-lab).
 
-## Additional One-time Setup
-
-Make sure you are inside of your VM. If not you can simply run `vagrant ssh`.
-After shelling into your VM, uninstall existing versions of Jupyter and
-matplotlib.
-
-```
-$ sudo pip uninstall matplotlib
-$ sudo pip uninstall jupyter
-```
-
-Re-install Jupyter and matplotlib with the --user flag.
-
-```
-$ pip install --user matplotlib
-$ pip install --user jupyter
-```
-## Opening the Jupyter Notebook
+## How to Use the Jupyter Notebook
 
 On the VM, run the command `sudo ~/.local/bin/jupyter-notebook &`. This will
 start a new Jupyter notebook server in the background. Even though it is

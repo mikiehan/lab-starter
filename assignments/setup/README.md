@@ -90,14 +90,17 @@ download the starter files from GitHub.
 
 `cd lab-{teamname}/assignments` to enter the lab directory.
 
-### Step 5: Provision virtual machine using Vagrant
+### Step 5: Download Pre-built VirtualBox Image and Provision using Vagrant
 
-From the `assignments` directory you just entered, run the command  `vagrant
-up` to start the VM and provision it according to the Vagrantfile. You will
-likely have to wait several minutes. You may see warnings/errors in red, such
-as "unable to re-open stdin: No such file or directory", but you shouldn't have 
-worry about them. Also you will receive your fair share of DEPRECATION of 
-Python 2.7 warning which you can igore as well.
+From the `assignments` directory you just entered, run below command to
+download the pre-built Virtual Box image for this lab. 
+`wget https://cs.utexas.edu/\~mhan/courses/cs356/sp21/labs/lab0/cs356-sp21-minilab.box`
+If you do not have wget, you can also manually download using any web browser
+using the same URL given above without "wget". Do make sure to place this box file 
+`assignments` directory.
+
+After downloading, again from the `assignments` directory, run the command 
+`vagrant up` to start the VM and provision it according to the Vagrantfile. 
 
 **Note 1**: The following commands will allow you to stop the VM at any point
 (such as when you are done working on an assignment for the day):
@@ -162,12 +165,12 @@ from the VM is some error message involving `^M` (carriage return). A good hint
 you need to do this when editing on Windows is the lack of new lines. Remember,
 doing this should only be necessary if you want to edit shell scripts.
 
-### Step 7: Do additional setup and take the second (last) screenshot
+### Step 7: Open jupyter notebook for Lab0 and take the second (last) screenshot
 
-[Minilab0 README](../minilab0/README.md) gives additional setup you need to do. 
-As the last step,  you will open `Lab0_notebook.ipynb`. Run the python code cell in Part A 
+[Minilab0 README](../minilab0/README.md) has instruction to open `Lab0_notebook.ipynb`. 
+After opening the Jupyter notebook, run the python code cell in Part A 
 that starts with ```from mininet.topo import Topo```. You should see "setup finished" message
-being output without any errors.
+being printed out to the output cell without any errors.
 
 Take the final screenshot `Screenshot 2` that shows the cell and the output. 
 After taking the screenshot remove the line that prints "setup finished" from the cell.
@@ -179,30 +182,3 @@ and Step 7 respectively.
  
 ### Step 10: Now you are ready to get started on assignments/minilab0
 
-### Q&A
-* **I'm getting an error when I run the command `vagrant up`. What do I do?**
-  Many errors/warnings are not a problem and do not need to be addressed, such
-  as `==> default: stdin: is not a tty`. Usually, errors starting with `==>
-  default` should not be worried about, but others should, in particular if
-  they cause the process to be aborted. Use `vagrant status` to see if the VM
-  is running after `vagrant up`; if it is not, then there is a real problem.
-  Here are some known errors and how to fix them:
-    * **"A Vagrant environment or target machine is required to run this
-      command..."**: you must run `vagrant up` from a subdirectory of the
-      directory containing the Vagrantfile (in the case, `assignments`).
-    * **"Vagrant cannot forward the specified ports on this VM, since they
-      would collide with some other application that is already listening on
-      these ports..."**: perhaps you cloned the repository twice and the VM is
-      already running on one of them. Since they both use the same port, they
-      cannot run at the same time. You may also have some other application
-      using port 8888. To help find what is using it, follow
-      [these](http://osxdaily.com/2014/05/20/port-scanner-mac-network-utility/)
-      instructions for macOS,
-      [these](https://techtalk.gfi.com/scan-open-ports-in-windows-a-quick-guide/)
-      for Windows and
-      [these](https://wiki.archlinux.org/index.php/Nmap#Port_scan) for Linux
-      (you may have to install `nmap`). Use 127.0.0.1 as the IP and 8888-8888
-      as the port range in your port scan.
-
-  If this did not help you fix the problem, please ask on Piazza or at office
-  hours. 
