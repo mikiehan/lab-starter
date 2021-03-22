@@ -99,7 +99,7 @@ download the pre-built Virtual Box image for this lab.
 
 If you do not have wget, you can also manually download using any web browser
 using the same URL given above without "wget". Do make sure to place this box file 
-`assignments` directory.
+under `assignments` directory.
 
 After downloading, again from the `assignments` directory, run the command 
 `vagrant up` to start the VM and provision it according to the Vagrantfile. 
