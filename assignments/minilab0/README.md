@@ -14,7 +14,7 @@ Partner B: Name (UTEID)
 
 ### Check Course Calendar/Canvas for Due Dates 
 By **setup** deadline
-* Submit 2 required screenshots specified in [setup README](../setup/README.md) to Canvas.
+* Each partner in the team must submit the 2 required screenshots specified in [setup README](../setup/README.md) to Canvas. (The screenshots must be submitted individually from your own machine not from your partner's.)
 * Fill out the team info above and push this updated README to your team repository. 
 
 By **checkpoint** deadline
