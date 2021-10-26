@@ -107,8 +107,6 @@ After downloading, again from the `assignments` directory, run the following thr
 
 ```vagrant up``` # this starts the VM and provisions it according to the Vagrantfile.
 
-```vagrant ssh``` # now you are inside the VM
-
 **Note 1**: The following commands will allow you to stop the VM at any point
 (such as when you are done working on an assignment for the day):
 * `vagrant suspend` will save the state of the VM and stop it.
