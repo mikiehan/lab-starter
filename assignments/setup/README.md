@@ -101,8 +101,11 @@ If you do not have wget, you can also manually download using any web browser
 using the same URL given above without "wget". Do make sure to place this box file 
 under `assignments` directory.
 
-After downloading, again from the `assignments` directory, run the command 
-`vagrant up` to start the VM and provision it according to the Vagrantfile. 
+After downloading, again from the `assignments` directory, run the following commands
+
+```vagrant box cs356-sp21-minilab --name cs356-sp21-minilab```
+```vagrant up``` # this starts the VM and provisions it according to the Vagrantfile. 
+```vagrant ssh``` # now you are inside the VM
 
 **Note 1**: The following commands will allow you to stop the VM at any point
 (such as when you are done working on an assignment for the day):
