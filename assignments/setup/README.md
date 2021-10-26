@@ -101,7 +101,7 @@ If you do not have wget, you can also manually download using any web browser
 using the same URL given above without "wget". Do make sure to place this box file 
 under `assignments` directory.
 
-After downloading, again from the `assignments` directory, run the following three commands.
+After downloading, again from the `assignments` directory, run the following commands.
 
 ```vagrant box cs356-sp21-minilab --name cs356-sp21-minilab```
 
