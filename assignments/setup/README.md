@@ -85,7 +85,7 @@ Use default options and uncheck "Launch Xming" at the end.
 Open your terminal and `cd`
 to wherever you want to keep files for this course on your computer.  
 
-Run `git clone https://github.com/cs356-fa21/lab-{teamname}` to
+Run `git clone https://github.com/cs356-sp22/lab-{teamname}` to
 download the starter files from GitHub.
 
 `cd lab-{teamname}/assignments` to enter the lab directory.
@@ -95,7 +95,7 @@ download the starter files from GitHub.
 From the `assignments` directory you just entered, run below command to
 download the pre-built Virtual Box image for this lab. 
 
-`wget https://cs.utexas.edu/~mhan/courses/cs356/fa21/labs/lab0/cs356-sp21-minilab.box`
+`wget https://cs.utexas.edu/~mhan/courses/cs356/sp22/labs/lab0/cs356-sp21-minilab.box`
 
 If you do not have wget, you can also manually download using any web browser
 using the same URL given above without "wget". Do make sure to place this box file 
