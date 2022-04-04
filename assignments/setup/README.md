@@ -103,9 +103,13 @@ under `assignments` directory.
 
 After downloading, again from the `assignments` directory, run the following commands.
 
-```vagrant box cs356-sp21-minilab --name cs356-sp21-minilab```
+```vagrant box add cs356-sp21-minilab.box --name cs356-sp21-minilab```
 
 ```vagrant up``` # this starts the VM and provisions it according to the Vagrantfile.
+
+If you need to ever remove the box then use below command.
+
+```vagrant box remove cs356-sp21-minilab```
 
 **Note 1**: The following commands will allow you to stop the VM at any point
 (such as when you are done working on an assignment for the day):
